@@ -19,7 +19,7 @@ a:visited {
 }
 
 .container {
-    width: 900px;
+    width: 898px;
     background:#ffffff;
     margin: 0 auto;
     position: relative;
@@ -77,13 +77,6 @@ a:visited {
     left: -359px;
 }
 
-#photome {
-    position: relative;
-    padding: 10px 0 0 0; 
-    float: left;
-    border-right: 25px solid transparent;
-}
-
 #aboutme {
     color:#4aaaa5;
     font-weight: bold;
@@ -115,4 +108,68 @@ a:visited {
     color: rgb(190, 190, 190);
     padding:40px 0 10px 0;
     font-size: 15px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    padding: 25px 30px 20px 0
+}
+
+#photome {
+    position: relative;
+    padding: 10px 0 0 0; 
+    float: left;
+    border-right: 25px solid transparent;
+    width:initial;
+    height:initial;
+    z-index: 2;
+}
+
+.picturewords {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    background-color:#4aaaa5;
+    color: white;
+    text-align: center;
+    width: 300px;
+    padding:15px 0 15px 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#positioned {
+    position: static;
+    width: 960;
+}
+
+#hangman {
+    position: relative;
+    top: -550px;
+    left: -299px
+}
+
+#rpggame {
+    position: relative;
+    top: -605px;
+    left: 35px;
+}
+
+#triviagame {
+    position: relative;
+    top: -415px;
+    left: -299px;
+
+}
+
+#rutgersinfowidget {
+    position: relative;
+    top: -470px;
+    left: 35px;
+}
+
+#rockpaperscissors {
+    position: relative;
+    top: -280px;
+    left: -299px;
 }
